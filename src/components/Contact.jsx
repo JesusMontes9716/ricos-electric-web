@@ -71,7 +71,7 @@ export default function Contact() {
 
     const popup = window.open(popupUrl, 'serviceRequest', features);
     if (popup) {
-      try { popup.opener = null; } catch (e) {}
+      try { popup.opener = null; } catch (err) { void err; }
       popup.focus();
     } else {
       // Popup blocked — fallback to in-page modal
