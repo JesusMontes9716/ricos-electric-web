@@ -5,6 +5,7 @@ import UserReviews from "./components/UserReviews";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import FloatingCall from "./components/FloatingCall";
+import Gallery from "./components/Gallery";
 
 import "./styles/main.css";
 
@@ -17,6 +18,7 @@ export default function App() {
         <Hero />
         <Services />
         <UserReviews />
+        <Gallery />
         <Contact />
       </main>
 
